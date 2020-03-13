@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.Img-LeftCorner {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.Img-RightCorner {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.Img-Logo {
+  position: absolute;
+  width: 164px;
+  height: 36px;
+  left: 309px;
+  top: 34px;
+  background: #ffffff;
+}
+
+.Img-Grid {
+  position: absolute;
+  width: 583px;
+  height: 301px;
+  left: 995px;
+  top: 397px;
+
+  /* opacity: 0.25; */
+}
+
+.Img-Yoga {
+  position: absolute;
+  /* width: 88.4px; */
+  /* height: 88.4px; */
+  left: 929px;
+  top: 506px;
+  /* transform: rotate(-22.76deg); */
+}
+
+.Img-Lotus {
+  position: absolute;
+  /* width: 89.2px;
+height: 89.2px; */
+  left: 1187px;
+  top: 123px;
+}
+
+.Img-Meditaion {
+  position: absolute;
+  left: 1472px;
+  top: 632px;
+}
+
+.Img-Tablet {
+  position: absolute;
+  left: 1023px;
+  top: 222px;
+}
+
+.Img-Play {
+  position: absolute;
+  left: 1284px;
+  top: 407px;
+}
+
+.LogoText {
+  position: absolute;
+  width: 686px;
+  height: 130px;
+  left: 309px;
+  top: 254px;
+  text-align: left;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 130%;
+  margin: 0;
+  /* or 65px */
+
+  color: #444444;
+}
+
+.GreatestText {
+  color: #ff7d30;
+}
+
+.LogoComment {
+  position: absolute;
+  width: 519px;
+  height: 91px;
+  left: 309px;
+  top: 417px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: left;
+  /* or 26px */
+
+  color: #646464;
+}
+
+.LogoScreenContainer {
+  position: relative;
+  /* width: 1000px; */
+}
