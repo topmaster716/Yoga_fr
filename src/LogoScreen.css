@@ -8,15 +8,13 @@
 .Img-RightCorner {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 825px;
 }
 
 .Img-Logo {
-  position: absolute;
   width: 164px;
   height: 36px;
-  left: 309px;
-  top: 34px;
+  left: 0;
   background: #ffffff;
 }
 
@@ -66,11 +64,11 @@ height: 89.2px; */
 }
 
 .LogoText {
-  position: absolute;
   width: 686px;
   height: 130px;
-  left: 309px;
-  top: 254px;
+  /* top: 254px;  */
+  padding-top: 184px;
+  padding-bottom: 30px;
   text-align: left;
   font-family: "Roboto";
   font-style: normal;
@@ -88,11 +86,8 @@ height: 89.2px; */
 }
 
 .LogoComment {
-  position: absolute;
   width: 519px;
   height: 91px;
-  left: 309px;
-  top: 417px;
 
   font-family: Roboto;
   font-style: normal;
@@ -100,12 +95,24 @@ height: 89.2px; */
   font-size: 16px;
   line-height: 160%;
   text-align: left;
-  /* or 26px */
-
+  margin: 0;
   color: #646464;
+  padding-bottom: 56px;
 }
 
-.LogoScreenContainer {
+.Btn-StartNow {
+}
+
+.ButtonContainer {
+  display: flex;
+  margin-top: 132px;
+}
+
+.LogoContainer {
   position: relative;
+  margin-left: 309px;
+  margin-top: 37px;
+  display: flex;
+  flex-direction: column;
   /* width: 1000px; */
 }

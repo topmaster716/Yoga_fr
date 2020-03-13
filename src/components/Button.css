@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.btn-lg {
+  width: 180px;
+  height: 66px;
+  border: none;
+  outline: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 135%;
+  color: #ffffff;
+  background: #ff7d30;
+  box-shadow: 0px 4px 15px rgba(95, 87, 87, 0.25);
+  border-radius: 90px;
+}
+
+.btn-lg:hover {
+  background: #e06c27;
+}
+
+.btn-lg:active {
+  background: #ff7d30;
+}

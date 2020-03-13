@@ -1,0 +1,17 @@
+.Text {
+  /* width: 123px; */
+  height: 73px;
+  /* left: 383px; */
+  /* top: 781.31px; */
+  margin-left: 10px;
+  margin-right: 52px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 73px;
+  vertical-align: middle;
+  /* identical to box height, or 27px */
+
+  color: #444444;
+}
