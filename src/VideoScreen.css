@@ -1,2 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.VideoScreenPage {
+  background-image: url("./assests/images/VideoBackground.svg");
+  /* width: 1927px; */
+  /* width: 100vw; */
+  height: 1379px;
+  margin-top: 40px;
+}
+
 .VideoScreenContainer {
+  height: 1000px;
+  padding-top: 144px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 144px;
+  margin-bottom: 208px;
+}
+
+.VideoScreenTitle {
+  text-align: left;
+  padding-bottom: 75px;
+}
+
+.TitleText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 140%;
+  color: #444444;
+}
+
+.StrongText {
+  color: #ff7d30;
+}
+
+.VideoScreenSection {
+  background-color: #ff7d30;
 }

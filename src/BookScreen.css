@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.BookScreenPage {
+  background-image: url("./assests/images/videobook_back.png");
+  height: 1254px;
+}
+
+.BookScreenContainer {
+  margin-left: 300px;
+  margin-right: 300px;
+  height: 1050px;
+  /* vertical-align: middle; */
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterContainer {
+  margin-top: 100px;
+  /* margin-left: 300px; */
+}
+
+.BookScreenTitle {
+  padding-top: 200px;
+  text-align: left;
+}
+
+.TitleText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 140%;
+
+  /* identical to box height, or 56px */
+
+  color: #444444;
+}
+
+.FooterContainer {
+  /* margin-left: 300px; */
+  /* margin-right: 300px; */
+  /* height: 1050px; */
+  /* vertical-align: middle; */
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterItem {
+  margin-left: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #444444;
+}
+.FooterCopyright {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 135%;
+  /* identical to box height, or 19px */
+
+  color: #8e8e8e;
+}
+
+.StrongText {
+  color: #ff7d30;
+}

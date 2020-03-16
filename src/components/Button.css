@@ -23,3 +23,10 @@
 .btn-lg:active {
   background: #ff7d30;
 }
+
+@media only screen and (max-width: 1000px) {
+  .btn-lg {
+    width: 130px;
+    height: 48px;
+  }
+}

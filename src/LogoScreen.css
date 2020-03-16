@@ -1,14 +1,36 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+.LogoScreenContainer {
+  /* position: absolute; */
+  /* width: 1920px; */
+  width: 100%;
+  top: 0px;
+  background-image: url("./assests/images/Back00.png");
+  background-repeat: no-repeat;
+}
+.Header {
+  display: flex;
+  padding: 30px 300px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* position: sticky; */
+  top: 0;
+  z-index: 9;
+}
 .Img-LeftCorner {
   position: absolute;
   left: 0;
   top: 0;
+  display: none;
 }
 
 .Img-RightCorner {
   position: absolute;
   top: 0;
-  left: 825px;
+  /* left: 825px; */
+  right: 0;
+  z-index: 0;
 }
 
 .Img-Logo {
@@ -65,7 +87,7 @@ height: 89.2px; */
 
 .LogoText {
   width: 686px;
-  height: 130px;
+  /* height: 130px; */
   /* top: 254px;  */
   padding-top: 184px;
   padding-bottom: 30px;
@@ -81,13 +103,13 @@ height: 89.2px; */
   color: #444444;
 }
 
-.GreatestText {
+.StrongText {
   color: #ff7d30;
 }
 
 .LogoComment {
   width: 519px;
-  height: 91px;
+  /* height: 91px; */
 
   font-family: Roboto;
   font-style: normal;
@@ -103,6 +125,21 @@ height: 89.2px; */
 .Btn-StartNow {
 }
 
+.FooterListItem {
+  float: left;
+}
+
+.FooterListItem a {
+  display: block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
 .ButtonContainer {
   display: flex;
   margin-top: 132px;
@@ -115,4 +152,91 @@ height: 89.2px; */
   display: flex;
   flex-direction: column;
   /* width: 1000px; */
+}
+
+.RightContainer {
+  /* display: none; */
+}
+
+.HamburgerBtn {
+  width: 17px;
+  height: 2px;
+  margin: 3px 0;
+  background: #444444;
+  border-radius: 3px;
+  display: none;
+}
+
+.IconGroupContainer {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .LogoScreenContainer {
+    background-image: url("./assests/images/Back01.svg");
+  }
+  .ImgLogoContainer {
+    margin: auto;
+  }
+  .Img-Logo {
+    width: 100px;
+    height: auto;
+  }
+  .HamburgerBtnContainer {
+    position: absolute;
+    right: 16px;
+  }
+  .HamburgerBtn {
+    display: block;
+  }
+  .Header {
+    padding: 31px 31px;
+    display: flex;
+    margin: auto;
+    /* display: none; */
+  }
+
+  .IconGroupContainer {
+    display: block;
+    width: 100%;
+    /* padding-bottom: 11px; */
+    /* height: 57px; */
+    /* background-image: url("./assests/images/MobileIcons.png"); */
+  }
+
+  .Header nav {
+    display: none;
+  }
+
+  .RightContainer {
+    display: none;
+  }
+
+  .LogoText {
+    width: 100%;
+    text-align: center;
+    font-size: 29px;
+    /* padding-top: 17px; */
+    padding-top: 0;
+  }
+
+  .LogoComment {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 130%;
+    padding-bottom: 18px;
+  }
+
+  .LogoContainer {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0;
+  }
+  .ButtonContainer {
+    display: none;
+  }
+  .Btn-StartNow {
+    align-self: center;
+  }
 }

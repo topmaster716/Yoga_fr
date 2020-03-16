@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.AudioScreenPage {
+  /* background-image: url("./assests/images/AudioBackground.svg"); */
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 1631px;
+  margin-top: 39px;
+}
+
+.AudioScreenContainer {
+  /* height: 1831px; */
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.AudioScreenTitle {
+  text-align: left;
+}
+
+.TitleText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 140%;
+
+  /* identical to box height, or 56px */
+
+  color: #444444;
+}
+
+.StrongText {
+  color: #ff7d30;
+}
+
+.AudioScreenSection {
+  /* width: 1300px; */
+  height: 1408px;
+  /* left: 310px; */
+  /* top: 2476px; */
+  margin-top: 76px;
+  background: #f1f1f1;
+  background-image: url("./assests/images/Waves.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  box-shadow: 0px 10px 10px rgba(107, 107, 107, 0.25);
+  border-radius: 6px;
+}
