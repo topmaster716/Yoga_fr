@@ -5,7 +5,7 @@
   /* width: 1920px; */
   width: 100%;
   top: 0px;
-  background-image: url("./assests/images/Back00.png");
+  background-image: url("./assests/images/LogoBack-lg.svg");
   background-repeat: no-repeat;
 }
 .Header {
@@ -86,9 +86,10 @@ height: 89.2px; */
 }
 
 .LogoText {
-  width: 686px;
   /* height: 130px; */
   /* top: 254px;  */
+  width: 100%;
+  text-align: center;
   padding-top: 184px;
   padding-bottom: 30px;
   text-align: left;
@@ -147,15 +148,15 @@ height: 89.2px; */
 
 .LogoContainer {
   position: relative;
-  margin-left: 309px;
-  margin-top: 37px;
+  margin-left: 16px;
+  margin-top: 16px;
   display: flex;
   flex-direction: column;
   /* width: 1000px; */
 }
 
 .RightContainer {
-  /* display: none; */
+  display: block;
 }
 
 .HamburgerBtn {
@@ -168,13 +169,161 @@ height: 89.2px; */
 }
 
 .IconGroupContainer {
+  width: 100%;
+  height: 80px;
+  background-image: url("./assests/images/LogoIconG-ms.svg");
+  /* background-size: auto, 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
   display: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 320px) {
   .LogoScreenContainer {
-    background-image: url("./assests/images/Back01.svg");
+    background-image: url("./assests/images/LogoBack-sm.svg");
   }
+
+  .Header nav {
+    display: none;
+  }
+
+  .RightContainer {
+    display: none;
+  }
+
+  .ButtonContainer {
+    display: none;
+  }
+
+  .HamburgerBtn {
+    display: block;
+  }
+
+  .IconGroupContainer {
+    width: 100%;
+    padding-bottom: 11px;
+    height: 57px;
+    background-image: url("./assests/images/LogoIconG-sm.svg");
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .LogoScreenContainer {
+    background-image: url("./assests/images/LogoBack-ms.svg");
+  }
+
+  .Header nav {
+    display: none;
+  }
+
+  .RightContainer {
+    display: none;
+  }
+  .HamburgerBtn {
+    display: block;
+  }
+
+  .LogoContainer {
+    margin: 51px 124px;
+  }
+
+  .ButtonContainer {
+    display: flex;
+    margin-top: 50px;
+    align-self: center;
+  }
+
+  .IconGroupContainer {
+    width: 100%;
+    height: 80px;
+    background-image: url("./assests/images/LogoIconG-ms.svg");
+    /* background-size: auto, 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .LogoScreenContainer {
+    background-image: url("./assests/images/LogoBack-md.svg");
+  }
+  .Header nav {
+    display: block;
+  }
+  .FooterListItem a {
+    color: #444444;
+  }
+
+  .RightContainer {
+    display: none;
+  }
+
+  .Header {
+    display: flex;
+    padding: 47px 44px;
+  }
+
+  .HamburgerBtn {
+    display: none;
+  }
+
+  .LogoText {
+    width: 100%;
+    text-align: center;
+  }
+
+  .LogoComment {
+    width: 100%;
+    text-align: center;
+  }
+
+  .IconGroupContainer {
+    width: 100%;
+    height: 80px;
+    background-image: url("./assests/images/LogoIconG-ms.svg");
+    display: block;
+    /* background-size: auto, 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .LogoScreenContainer {
+    background-image: url("./assests/images/LogoBack-lg.svg");
+    background-size: 100%;
+  }
+  .Header nav {
+    display: block;
+  }
+  .FooterListItem a {
+    color: #ffffff;
+  }
+  .RightContainer {
+    display: block;
+  }
+
+  .HamburgerBtn {
+    display: none;
+  }
+
+  .LogoContainer {
+    position: relative;
+    margin-left: 309px;
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    /* width: 1000px; */
+  }
+
+  .LogoText {
+    width: 686px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* .LogoScreenContainer {
+    background-image: url("./assests/images/Back01.svg");
+  } */
   .ImgLogoContainer {
     margin: auto;
   }
@@ -186,9 +335,7 @@ height: 89.2px; */
     position: absolute;
     right: 16px;
   }
-  .HamburgerBtn {
-    display: block;
-  }
+
   .Header {
     padding: 31px 31px;
     display: flex;
@@ -202,10 +349,6 @@ height: 89.2px; */
     /* padding-bottom: 11px; */
     /* height: 57px; */
     /* background-image: url("./assests/images/MobileIcons.png"); */
-  }
-
-  .Header nav {
-    display: none;
   }
 
   .RightContainer {
@@ -228,14 +371,14 @@ height: 89.2px; */
     padding-bottom: 18px;
   }
 
-  .LogoContainer {
+  /* .LogoContainer {
     margin-left: 16px;
     margin-right: 16px;
     margin-top: 0;
-  }
-  .ButtonContainer {
+  } */
+  /* .ButtonContainer {
     display: none;
-  }
+  } */
   .Btn-StartNow {
     align-self: center;
   }

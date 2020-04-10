@@ -1,0 +1,82 @@
+.MAudioItemContainer {
+  margin: 0 71px;
+  margin-bottom: 0;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  height: 78px;
+}
+
+.MAudioItemTrack {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 34px;
+  /* or 22px */
+
+  color: #979797;
+}
+
+.hidden {
+  display: none;
+}
+
+.MAudioItemPlaying {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 34px;
+
+  /* or 22px */
+
+  color: #ff7d30;
+}
+
+.MAudioItemComment {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+
+  /* or 22px */
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 34px;
+
+  color: #444444;
+}
+
+.MAudioItemLength {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+
+  /* or 22px */
+  margin: auto;
+  margin-right: 0;
+  color: #ff7d30 !important;
+}
+
+.MAudioItemLengthNormal {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+
+  /* or 22px */
+  margin: auto;
+  margin-right: 0;
+  color: #979797;
+}

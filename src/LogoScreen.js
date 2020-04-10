@@ -70,11 +70,11 @@ class LogoScreen extends React.Component {
               allow you to attract your greatest desires. Let’s get stuck in…
             </p>
             <div className="IconGroupContainer">
-              <img
+              {/* <img
                 style={{ width: "100%" }}
                 src={MOBILEICONS}
                 alt="mobileicons"
-              ></img>
+              ></img> */}
             </div>
             <div className="Btn-StartNow">
               <Button

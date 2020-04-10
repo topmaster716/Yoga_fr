@@ -1,0 +1,69 @@
+.BookItemPage {
+  width: 310px;
+  /* height: 532px; */
+  position: relative;
+  /* overflow: hidden; */
+  align-items: center;
+  margin-right: 20px;
+}
+
+.BookItemBack {
+  margin-top: -385px;
+  width: 310px;
+  height: 385px;
+  /* height: fill-available; */
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(204, 204, 204, 0.25);
+  border-radius: 10px;
+}
+
+.BookItemLogo {
+  margin: 0 57px 0 57px;
+  position: absolute;
+  top: 0px;
+  width: 197px;
+  height: 308px;
+  background-image: url("./../assests/images/BookItemLogo01.png");
+  background-size: cover;
+  /* z-index: 1; */
+  box-shadow: 5px 10px 15px rgba(56, 56, 56, 0.25);
+}
+.LogoImage {
+  box-shadow: 5px 10px 15px rgba(56, 56, 56, 0.25);
+}
+
+.BookType {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+
+  /* identical to box height, or 17px */
+  text-align: center;
+  padding: 20px 0 20px 0;
+  color: #989898;
+}
+.BookTitle {
+  padding: 0 70px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  height: 65px;
+  /* or 22px */
+  text-align: center;
+
+  color: #444444;
+}
+.BookItemInfo {
+  /* position: absolute;
+  top: 310px;
+  left: 57px; */
+  /* margin: 0 57px 0 57px; */
+}
+
+.BookItemBtn {
+  padding: 32px 64px;
+}

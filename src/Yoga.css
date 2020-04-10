@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.MobileMenu {
+  width: 100vw;
+  height: 100vh;
+  background: #ff7d30;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.LeftBack {
+  background-image: url("./assests/images/Back01.svg");
+  left: 0;
+}
+
+.MobileMenuItem {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  padding: 1em;
+  color: #ffffff;
+  display: list-item;
+}
+
+.MobileMenuTitle {
+  position: fixed;
+  margin: auto;
+  margin-top: 6em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  align-self: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  .MobileLeftCorner {
+    position: absolute;
+    left: 0;
+    width: 198px;
+    height: 252px;
+    /* background-image: url("./assests/images/MobileMenuBack-ms.svg"); */
+    background-image: url("./assests/images/0000.svg");
+    /* background-size: auto, 100%; */
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+}

@@ -16,6 +16,21 @@
   margin-bottom: 208px;
 }
 
+.VideoScreenSection {
+  display: flex;
+}
+
+.LeftPane {
+  /* background-color: aqua; */
+  width: 40%;
+  min-width: 450px;
+}
+
+.RightPane {
+  /* background-color: aqua; */
+  margin: 0 38px 0 38px;
+}
+
 .VideoScreenTitle {
   text-align: left;
   padding-bottom: 75px;
@@ -35,5 +50,44 @@
 }
 
 .VideoScreenSection {
-  background-color: #ff7d30;
+  /* background-color: #ff7d30; */
+}
+
+.VideoTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 140%;
+
+  /* or 31px */
+  text-align: left;
+  color: #444444;
+  margin-top: 32px;
+}
+
+.VideoLength {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+
+  /* or 22px */
+  text-align: left;
+  color: #ff7d30;
+
+  margin: 27px 0 27px 0;
+}
+
+.VideoComment {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+
+  /* or 22px */
+  text-align: left;
+  color: #5a5a5a;
 }

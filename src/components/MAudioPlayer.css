@@ -1,0 +1,28 @@
+.MAudioPlayerContainer {
+  padding-top: 96px;
+  padding: 96px 238px;
+}
+
+.MAudioPlayerTrack {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+
+  /* or 22px */
+
+  color: #979797;
+}
+
+.MAudioPlayerComment {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 140%;
+
+  /* identical to box height, or 28px */
+
+  color: #444444;
+}
